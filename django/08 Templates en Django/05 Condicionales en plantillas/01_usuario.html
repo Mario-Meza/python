@@ -1,0 +1,12 @@
+<!-- app/templates/usuario.html -->
+{% if usuario.autenticado %}
+    {% if usuario.admin %}
+        <p>Bienvenido, administrador {{ usuario.nombre }}.</p>
+    {% elif usuario.super %}
+        <p>Bienvenido, superusuario {{ usuario.nombre }}.</p>
+    {% else %}
+        <p>Bienvenido, {{ usuario.nombre }}.</p>
+    {% endif %}
+{% else %}
+    <p>Por favor, inicia sesión para continuar.</p>
+{% endif %}

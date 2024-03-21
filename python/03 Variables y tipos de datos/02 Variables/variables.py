@@ -1,0 +1,2 @@
+autorizado = True
+seleccionado = False
