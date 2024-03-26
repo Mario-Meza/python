@@ -1,8 +1,7 @@
-"""
-    remove() es una funcion que se usa para eliminar un elemento especifico de una lista. 
-"""
+# Lista de Strings
+lista = ["Hola", "soy", "un", "ejemplo", "a"]
 
-nombres = ["jose", "pablo","andres","raul"]
+# Usando .join para unir los elementos de la lista en un solo String.
+cadena = " ".join(lista)
 
-nombres.remove("jose")
-print(nombres)
+print(cadena)  # Output: Hola soy un ejemplo
