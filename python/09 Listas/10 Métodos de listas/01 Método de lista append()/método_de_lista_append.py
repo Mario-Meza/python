@@ -2,7 +2,8 @@
   append() es una funciond epthon para agregar un elemento al final de uns lista.
                                                                                                                                                                                                                                                                                              
 """
-palabra = "gato"
-letra = "gato"
+input_w = input("Ingresa una palabra: ")
+palabras = "HOLA"
 
-print(letra in palabra)
+if input_w.upper() == palabras:
+    print("¡Palabra correcta!")
